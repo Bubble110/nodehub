@@ -1,0 +1,14 @@
+*.iml
+node_modules
+package-lock.json
+.idea
+dist
+logs
+.DS_Store
+.vscode
+npm-debug.log
+yarn.lock
+yarn-error.log
+Thumbs.db
+build
+.env
