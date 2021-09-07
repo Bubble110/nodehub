@@ -12,6 +12,14 @@ const errorHandler=(error,ctx)=>{
       status=409;
       message="用户已经存在";
       break;
+    case errorType.USER_DOES_NOT_EXISTS:
+      status=400;
+      message="用户不存在~";
+      break;
+    case errorType.PASSWORD_IS_INCORRENT:
+      status=400;
+      message="用户密码不正确~";
+      break;
     default:
       status=404;
       message="NOT FOUND";
