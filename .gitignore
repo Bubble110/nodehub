@@ -11,4 +11,3 @@ yarn.lock
 yarn-error.log
 Thumbs.db
 build
-.env
